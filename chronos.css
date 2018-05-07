@@ -20,7 +20,7 @@ body {
 #selectEmployee {
     height: 48px;
     display: initial;
-    width: auto;
+    width: 300px;
 }
 
 #date {
@@ -38,5 +38,12 @@ body {
 
 #lines td {
     white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#employee-name {
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
