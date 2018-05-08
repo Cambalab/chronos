@@ -29,5 +29,11 @@
     "permissions": [
         "*://*/",
         "alarms"
-    ]
+    ],
+    "applications": {
+      "gecko": {
+        "id": "chronos@camba.coop",
+        "strict_min_version": "42.0"
+      }
+    }
 }
